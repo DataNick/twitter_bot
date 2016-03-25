@@ -10,6 +10,7 @@ gem 'whenever', '~> 0.9.4', require: false
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'figaro'
 gem 'puma', '~> 3.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
