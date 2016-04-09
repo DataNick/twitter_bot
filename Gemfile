@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'figaro'
 gem 'puma', '~> 3.2'
+gem 'rename', '~> 1.0', '>= 1.0.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
