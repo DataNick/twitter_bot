@@ -4,7 +4,7 @@ class Bot < ActiveRecord::Base
     CLIENT.search(words, lang: "en").first.text
   end
 
-  def self.find_user number, words
+  def self.find_user(number, words)
     # find tweets
     CLIENT.search(words, lang: "en").take(number).each { |t|
       # record twitter user and tweet num.
