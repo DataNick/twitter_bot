@@ -12,10 +12,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'figaro'
 gem 'puma', '~> 3.2'
+gem 'twitter', '~> 5.16'
+gem 'randumb'
 gem 'rename', '~> 1.0', '>= 1.0.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
+  gem 'awesome_print', '~> 1.6', '>= 1.6.1'
   gem 'pry-rails', '~> 0.3.4'
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
 end
@@ -23,6 +26,6 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
 
-  gem 'spring'
+
 end
 
